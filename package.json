@@ -1,0 +1,38 @@
+{
+  "name": "create-wc",
+  "description": "A super simple code generator for web components.",
+  "type": "module",
+  "version": "0.0.1",
+  "repository": {
+    "url": "https://github.com/willmartian/create-wc"
+  },
+  "main": "bin/index.js",
+  "bin": {
+    "create-wc": "bin/index.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "start": "node bin/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "code-gen",
+    "cli",
+    "web component",
+    "custom element"
+  ],
+  "author": {
+    "email": "contact@willmartian.com",
+    "name": "willmartian",
+    "url": "https://willmartian.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "conf": "^10.2.0",
+    "fast-xml-parser": "^4.0.9",
+    "meow": "^10.1.2"
+  }
+}
