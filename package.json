@@ -2,7 +2,7 @@
   "name": "create-wc",
   "description": "A super simple code generator for web components.",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "url": "https://github.com/willmartian/create-wc"
   },
