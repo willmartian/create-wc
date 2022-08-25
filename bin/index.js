@@ -65,7 +65,9 @@ const writeFile = (parsedXML, lib) => {
     const conf = new Conf({
         defaults: {
             'lib': 'lit.ts'
-        }
+        },
+        projectName: 'create-wc',
+        projectVersion: '0.0.1'
     });
 
     const cli = meow(`
@@ -101,6 +103,7 @@ const writeFile = (parsedXML, lib) => {
     });
 
     const input = cli.input.length > 0 ? cli.input : ['<hello-world isCool>'];
+    console.log(''); // linebreak
     input.forEach(arg => {
         writeFile(parser.parse(arg), lib);
     });    

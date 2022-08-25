@@ -6,7 +6,11 @@ A super simple code generator for web components.
 
 Supply the HTML API for the web component in quotes: 
 
-`npm init wc "<my-component foo='bar'>"` or `npx create-wc "<my-component hi='mom'>"`
+`npm init wc "<my-component foo='bar'>"`
+
+or
+
+`npx create-wc "<my-component hi='mom'>"`
 
 Multiple arguments can be passed to generate multiple components:
 
